@@ -1,0 +1,46 @@
+body {
+    background-image: url("backround.jpg");
+    background-size: cover; 
+    background-position: center; 
+}
+
+.nature {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    align-items: center; 
+    height: auto; 
+    padding: 20px; 
+}
+
+.sytem, .model {
+    background-color: #f6f7f1;
+    width: 400px;
+    height: 400px;
+    border: 6px solid black;
+    font-size: 50px;   
+    display: flex;           
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;   
+    margin: 10px;
+    border-radius: 60px;
+    
+}
+
+.eco {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+@media (max-width: 768px) {
+    .sytem, .model {
+        width: calc(100% - 40px);
+        height: auto; 
+        font-size: 30px; 
+    }
+}
